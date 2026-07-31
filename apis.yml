@@ -1,7 +1,27 @@
 aid: myu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/myu.png
 name: Myu
-description: Myu is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Myu (MyU Interactive Learning) is an education-technology company offering
+  an integrated learning management system (LMS) and school management platform that
+  unifies class delivery, a student information system (SIS), grading and academic
+  reporting, attendance and compliance tracking, and parent/teacher communication in
+  a single interface. It serves early-childhood centers, K-12 schools, higher-education
+  institutions, training institutes, and individual teachers across 1,000+ institutions
+  worldwide, with a notable presence in the GCC region. Myu is delivered as web and
+  mobile (iOS/Android) applications and, as of this profiling, exposes no public
+  developer API, SDK, or documentation surface. Surfaced as a 500 Global portfolio
+  company and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/myu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Learning Management System
+- Student Information System
+- K-12
+- Higher Education
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://myu.co
+- type: TermsOfService
+  url: https://myu.co/terms
+- type: Login
+  url: https://app.myu.co/en/login
+- type: Support
+  url: https://myu.co/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
